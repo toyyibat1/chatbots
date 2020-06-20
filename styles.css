@@ -17,12 +17,7 @@ body::after {
     position: absolute;
       
   }
-span { 
-    color: palegoldenrod; 
-} 
-::-webkit-input-placeholder { 
-    color: gray 
-}
+
 #chat { 
     top: 40%; 
     right: 200px; 
