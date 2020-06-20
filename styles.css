@@ -1,0 +1,40 @@
+body { 
+    color: #421; 
+    font-weight: bold; 
+    font-size: 18px; 
+    font-family: "Courier New"; 
+    background: gray; 
+    overflow: scroll;
+
+}
+.header{
+    align-content: center;
+    text-align: center;
+    margin-top: 50px;
+}
+body::after {
+    content: "";
+    opacity: 0.5;
+    position: absolute;
+      
+  }
+span { 
+    color: palegoldenrod; 
+} 
+::-webkit-input-placeholder { 
+    color: gray 
+}
+#chat { 
+    top: 40%; 
+    right: 200px; 
+    width: 400px; 
+    padding: 40px; 
+}
+#chat div { 
+    margin: 10px; 
+} 
+#input { 
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #421; 
+}
